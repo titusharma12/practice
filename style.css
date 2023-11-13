@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.logo img {
+  margin: 16px 70px;
+}
+
+.nav-list ul {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.nav-list ul li i {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.nav-list ul li {
+  list-style: none;
+  text-transform: capitalize;
+  margin: 16px 14px;
+  font: 15px "segoe UI";
+}
+
+.text-center {
+  text-align: center;
+}
+
+.wd-font {
+  margin-top: 50px;
+  font: 44px "segoe UI";
+  font-weight: 400;
+  line-height: 2.3em;
+  /* color: #222222; */
+}
+.wd-1 {
+  font: 24px "segoe UI";
+}
+
+.container-wd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 2rem;
+  background-color: #0693e3;
+  color: #ffffff;
+  padding: 12px 24px;
+  font: 16px "segoe UI";
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.hotfix-header {
+  display: flex;
+  align-items: center;
+  margin-left: 9rem;
+  margin-top: 4rem;
+}
+
+.hotfix-text {
+  margin-left: 2rem;
+  font: 24px "segoe UI";
+}
+.hotflix-small {
+  font: 14.4px "segoe UI";
+}
+
+.language-container {
+  width: 75vw;
+  margin:auto;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.lanuage-item {
+  background-color: rgb(238,238,238);
+  width: 300px;
+  height: 180px;
+ 
+}
+.lanuage-item h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.lanuage-item p{
+    text-align: center;
+    font: 12px 'segoe UI';
+    margin-top: 0.5rem;
+}
+
+.language-btn {
+  margin-top: 4rem;
+  padding:0px 16px;
+}
+.lanuage-item a {
+  text-decoration: none;
+  background-color: #0693e3;
+  border: none;
+  font: 12px "segoe UI";
+  font-weight: bold;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.lanuage-item a:hover{
+    background: #8ed1fc;
+}
+
+.btn-2 {
+  background-color: #00d084 !important;
+  margin-left: 8px;
+}
+.btn-2:hover {
+  background-color: #7bdcb5 !important;
+  /* margin-left: 8px; */
+}
+
+@media only screen and (max-width: 600px){
+    .language-container {
+        /* width: 75vw; */
+        margin:auto;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+}
